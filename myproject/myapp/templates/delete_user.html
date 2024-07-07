@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Welcome message centered in a container -->
+    <div class="welcome-container">
+        <h2>User Deleted</h2><br>
+        <p>The user <strong>{{ username }}</strong> has been successfully deleted.</p><br>
+        <a href="{% url 'admin_panel' %}">Return to Admin Panel</a>
+    </div>
+</div>
+{% endblock %}

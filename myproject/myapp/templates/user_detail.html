@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Admin Panel{% endblock %}
+
+{% block content %}
+<body>
+    <div class="admincontainer">
+        <h2>User Details</h2>
+        <table>
+            <tr>
+                <th>Username</th>
+                <td>{{ user.username }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ user.email }}</td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>{{ user.phone_number }}</td>
+            </tr>
+        </table>
+        <a href="{% url 'admin_panel' %}">Back to Admin Panel</a>
+   
+    <div>
+</body>
+{% endblock %}

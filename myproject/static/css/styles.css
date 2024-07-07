@@ -1,0 +1,224 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #042b4b;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    margin-top:50px;
+    background-color: rgb(248, 251, 252);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 20px auto;
+    align-items: center;
+}
+.admincontainer {
+    margin-top:50px;
+    background-color: rgb(248, 251, 252);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height:80vh;
+    margin: 20px auto;
+    align-items: center;}
+
+h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    background: rgb(207, 233, 233);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    align-items:center;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+} 
+
+/* Home page styles */
+.welcome-message {
+    text-align: center;
+    color: #343a40;
+    margin-top: 50px;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* styles.css */
+
+/* Navbar and Logout button styles */
+/* .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+} */
+
+/* .btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+} */
+button[name="search"]{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[name="bt1"]{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button a:hover{
+    text-decoration: none;
+    color:white;
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+
+/* button[name="search"]:hover, button[name="logout"]:hover {
+    background-color: #0056b3; 
+} */
+
+.float-left {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Welcome message container styles */
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-message {
+    color: #343a40;
+    font-size: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+input[name="query"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+}
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+.action-buttons a {
+    text-decoration: none;
+}
+.action-buttons button {
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.action-buttons button.edit {
+    background-color: #008CBA; /* Blue */
+}
+.action-buttons button.password {
+    background-color: #f0ad4e; /* Yellow */
+}
+.action-buttons button.delete {
+    background-color: #d9534f; /* Red */
+}
+.action-buttons button:hover {
+    opacity: 0.8;
+}
